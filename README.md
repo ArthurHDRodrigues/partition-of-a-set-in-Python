@@ -8,7 +8,8 @@ Let P(S) be the set of all partitions of the set S. If S = {a}, then P(S) = {{a}
 
 ![](https://github.com/ArthurHDRodrigues/partition-of-a-set-in-Python/blob/main/partition.jpeg)
 
-R essencially adds the new [class of equivalence](https://en.wikipedia.org/wiki/Equivalence_class) {{x}} to each partition A in P(S\{x}) and Q adds x to each class of each existent partition in P(S\{x}).
+R essencially adds the new [class of equivalence](https://en.wikipedia.org/wiki/Equivalence_class) {x} to each partition A in P(S\{x}) and Q adds x to each class of each existent partition in P(S\{x}).
 
 
 ## Example
+I will add this one day, I promise
