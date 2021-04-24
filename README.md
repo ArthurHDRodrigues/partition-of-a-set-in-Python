@@ -12,4 +12,4 @@ R essencially adds the new [class of equivalence](https://en.wikipedia.org/wiki/
 
 
 ## Example
-I will add this one day, I promise
+I will add this tomorrow, I promise
