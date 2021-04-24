@@ -2,14 +2,20 @@
 A Python 3 script that generates the set of all [partitions](https://en.wikipedia.org/wiki/Partition_of_a_set) of a given non-empty set.
 
 ## How it works?
-It uses the following recursive definition of the set of all partitions of a finite set:
+This program arises from the idea of constructing the set *P(S)* of all partitions of a finite set *S* from the set *P(S \\{x})*, where *x* is an arbitrary element of *S*.
 
-Let P(S) be the set of all partitions of the set S. If S = {a}, then P(S) = {{a}}. If #P(S) > 1, then P(S) = R &#8899; Q. Where
+If *S* is a [singleton](https://en.wikipedia.org/wiki/Singleton_(mathematics)), then *P(S) = {{x}}*. To build *P(S)* for bigger sets, we first build *P(S\\{x})* and then do two things:
+
+First, for each partition in *P(S\\{x})*, we constitute a new partition for *S* by adding a new [class of equivalence](https://en.wikipedia.org/wiki/Equivalence_class), namely *{x}*. The set of all these partitions is the set *R*, in the image below;
+
+Second, for each partition *A* in *P(S\\{x})*, we create [*#A*](https://en.wikipedia.org/wiki/Cardinality) new partitions by adding *x* to each class of equivalence. The resulting set is the set *Q* below.
+
+Formally speaking, it uses the following recursive definition of the set of all partitions of a finite set:
+
+Let *P(S)* be the set of all partitions of the set *S8. If *S = {a}*, then *P(S) = {{a}}*. If *#P(S) > 1*, then *P(S) = R &#8899; Q*. Where
 
 ![](https://github.com/ArthurHDRodrigues/partition-of-a-set-in-Python/blob/main/partition.jpeg)
 
-R essencially adds the new [class of equivalence](https://en.wikipedia.org/wiki/Equivalence_class) {x} to each partition A in P(S\{x}) and Q adds x to each class of each existent partition in P(S\{x}).
-
 
 ## Example
-I will add this tomorrow, I promise
+I will add this one day, I promise
