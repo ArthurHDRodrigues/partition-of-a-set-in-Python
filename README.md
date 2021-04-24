@@ -14,7 +14,7 @@ Formally speaking, it uses the following recursive definition of the set of all 
 
 Let *P(S)* be the set of all partitions of the set *S8. If *S = {a}*, then *P(S) = {{a}}*. If *#P(S) > 1*, then *P(S) = R &#8899; Q*. Where
 
-![](https://github.com/ArthurHDRodrigues/partition-of-a-set-in-Python/blob/main/partition.jpeg)
+![](https://github.com/ArthurHDRodrigues/partition-of-a-set-in-Python/blob/main/partition2.jpeg)
 
 
 ## Example
